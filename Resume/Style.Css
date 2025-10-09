@@ -1,0 +1,58 @@
+/* Main Style */
+
+body {
+  font-family: 'Open Sans', arial, sans-serif;
+    font-size: 1em;
+    color: #444;
+    font-weight: 400;
+}
+
+/* Banner Name at Top */
+h1 {
+font-size: 3em;
+text-transform: uppercase;
+text-align: center;
+color: #33485e ;
+}
+
+/* Color for Text*/
+strong {
+    color: #33485e;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+/* Style Color for h2 */
+h2 {
+    font-size: 1.5 em;
+    text-transform: uppercase;
+    background-color: #33485e;
+    color: #fff;
+}
+
+/* Job Titles */
+.job-dates {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+/* Job Organization */
+.job-organization {
+  font-weight: 400;
+  font-size: 1.5em;
+  
+}
+
+/* Job Dates */
+.job-dates {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1em;
+}
+
+/* Contact Info, Skills, Education Lists */
+.contact-info li,
+.skills li,
+.education li {
+  font-size: 1em;
+}
