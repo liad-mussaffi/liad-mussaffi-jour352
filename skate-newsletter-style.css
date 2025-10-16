@@ -1,0 +1,60 @@
+/* Apply Special Elite font to required elements */
+h1, h2, h3, .navbar-brand, .btn {
+    font-family: 'Special Elite', cursive;
+}
+
+/* 50px bottom padding for all rows (as per instructions) */
+.row {
+    padding-bottom: 50px;
+}
+
+/* Icon size for the bottom row */
+.bi {
+    font-size: 3em;
+}
+
+/* --- Custom styling to match screenshot --- */
+
+/* Ensures the hero h1 is left-aligned, overriding potential Bootstrap centering */
+.hero-h1 {
+    text-align: left !important;
+}
+
+/* Sets Max-Width for the two images in the content section (new change) */
+.content-image {
+    max-width: 500px !important; 
+    /* Centers the image block within its column */
+    margin: 0 auto; 
+    display: block; 
+}
+
+/* Style the custom button footer text */
+.footer-link {
+    display: block;
+    margin-top: -10px; /* Adjust spacing below icon */
+    font-size: 0.9em;
+    color: #212529; /* Dark text color */
+}
+
+/* Padding above the footer icons */
+.footer-col {
+    padding-top: 15px; 
+}
+
+/* Media Query for screens below 500px */
+@media only screen and (max-width: 500px) {
+    /* 50px top padding to H2 */
+    h2 {
+        padding-top: 50px;
+    }
+    
+    /* Change button background to teal (using !important to override Bootstrap) */
+    .btn {
+        background-color: teal !important;
+        border-color: teal !important;
+    }
+
+    .text-light {
+        color: #7c7777 !important; /* Ensure muted text is visible on small screens */
+    }
+}
