@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Skate! Newsletter</title>
+    <meta name="description" content="A landing page for Skate! Newsletter using Bootstrap">
+    <meta name="author" content="Student">
+
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <style>
+        /* Apply Special Elite font */
+        h1, h2, h3, .navbar-brand, .btn {
+            font-family: 'Special Elite', cursive;
+        }
+
+        /* 50px bottom padding for all rows */
+        .row {
+            padding-bottom: 50px;
+        }
+
+        /* Icon size for the three-column row */
+        .bi {
+            font-size: 3em;
+        }
+        
+        /* Media Query for screens below 500px */
+        @media only screen and (max-width: 500px) {
+            /* 50px top padding to H2 */
+            h2 {
+                padding-top: 50px;
+            }
+            /* Change button background to teal (using !important to override Bootstrap) */
+            .btn {
+                background-color: teal !important;
+                border-color: teal !important;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Skate! Newsletter</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Current issue</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Past issues</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Follow us</a></li>
+                </ul>
+                </div>
+        </div>
+    </nav>
+    <div class="container col-xxl-8 px-4 py-5"> 
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5"> 
+            
+            <div class="col-10 col-sm-8 col-lg-6"> 
+                <img src="https://images.unsplash.com/photo-1564982752979-3f7bc974d29a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" 
+                     class="d-block mx-lg-auto img-fluid" 
+                     alt="Skateboarding photo" 
+                     width="700" height="500" loading="lazy"> 
+            </div> 
+            
+            <div class="col-lg-6"> 
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Get the latest news on street and ramp skating.</h1> 
+                <p class="lead">From Olympic profiles to DIY park builds, Skate! Newsletter is your weekly deep-dive into the culture, gear, and community that makes skateboarding the world's greatest sport.</p> 
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start"> 
+                    <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">Subscribe Now</button> 
+                </div> 
+            </div> 
+        </div> 
+    </div>
+    <div class="container">
+        
+        <div class="row text-center">
+            
+            <div class="col-md-6">
+                <h2>The Latest Tech</h2>
+                <p>We review the newest boards, trucks, and wheels, focusing on performance and sustainability. Read our in-depth analysis on the latest composite decks.</p>
+                <img src="https://images.unsplash.com/photo-1547842739-1bc1824c9e42?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                     alt="Skateboarder grinding on a rail" 
+                     class="img-fluid" 
+                     style="width: 100%; max-width: 500px; height: auto; margin: 0 auto;">
+                <p class="mt-3">
+                    <button type="button" class="btn btn-outline-secondary">Read Review</button>
+                </p>
+            </div>
+
+            <div class="col-md-6">
+                <h2>Community Spotlight</h2>
+                <p>Every week, we feature a local skate park or community group making a difference. This week: meet the creators of the 'Shred Shack' DIY park!</p>
+                <img src="https://images.unsplash.com/photo-1549429402-39c59505c21f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                     alt="Graffiti and ramp at a skate park" 
+                     class="img-fluid" 
+                     style="width: 100%; max-width: 500px; height: auto; margin: 0 auto;">
+                <p class="mt-3">
+                    <button type="button" class="btn btn-outline-secondary">Meet the Crew</button>
+                </p>
+            </div>
+        </div>
+        <div class="row text-center">
+            
+            <div class="col-md-4">
+                <i class="bi bi-calendar-check"></i>
+                <h3>Events Calendar</h3>
+                <p>Stay updated on the latest competitions, park openings, and local meetups in your area. Never miss a session!</p>
+            </div>
+
+            <div class="col-md-4">
+                <i class="bi bi-book"></i>
+                <h3>Trick Guides</h3>
+                <p>From ollies to 360 flips, our step-by-step guides and video tutorials will help you level up your skills, safely and quickly.</p>
+            </div>
+
+            <div class="col-md-4">
+                <i class="bi bi-megaphone"></i>
+                <h3>Pro Interviews</h3>
+                <p>Exclusive interviews with professional skaters. Get insights into their training, favorite spots, and plans for the next season.</p>
+            </div>
+        </div>
+        </div>
