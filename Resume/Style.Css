@@ -1,0 +1,172 @@
+/*  Stylesheet Liad Mussaffi's Resume */
+
+
+:root {
+    --primary-color: #534a50; 
+    --accent-color: #cb2914; 
+    --body-font: 'Open Sans', arial, sans-serif;
+    --header-font: 'Lora', georgia, serif;
+}
+
+body {
+    font-family: var(--body-font);
+    font-size: 1.1em; 
+    color: #444;
+    line-height: 1.6;
+    background-color: #f4f7f6; 
+}
+
+
+
+/* Customize Bootstrap Navbar */
+#main-nav {
+    background-color: white !important; 
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+}
+
+.navbar-brand {
+    font-family: var(--header-font);
+    font-weight: 700;
+    color: var(--primary-color) !important;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: var(--primary-color) !important;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: var(--accent-color) !important;
+}
+
+
+/* Page Topper */
+#page-topper {
+    background-color: white; 
+    border-bottom: 5px solid var(--accent-color); 
+}
+
+#name {
+    font-family: var(--header-font);
+    font-size: 3.5rem; 
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    margin-bottom: 0.1em;
+}
+
+#titlenew {
+    font-family: var(--body-font);
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--accent-color); 
+    letter-spacing: 2px;
+}
+
+.top {
+    font-size: 1em;
+    width: 90%; 
+    max-width: 700px;
+    color: #666;
+}
+
+/* Contact Buttons */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    text-transform: uppercase;
+}
+.btn-primary:hover {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+.btn-secondary {
+    background-color: #ccc;
+    border-color: #ccc;
+    color: #333;
+    text-transform: uppercase;
+}
+.btn-secondary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+
+/*  Section Headers  */
+.sectionheader {
+    font-family: var(--header-font);
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    background-color: var(--primary-color);
+    padding: 10px 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: inline-block; 
+}
+
+/* Experience*/
+.job-entry {
+    background-color: white;
+    border-left: 5px solid var(--accent-color);
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05); 
+}
+
+.title {
+    font-family: var(--body-font);
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    margin-top: 0;
+}
+
+.organization {
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.date {
+    font-size: 0.95rem;
+    font-style: italic;
+    color: #888;
+}
+
+/*  Education & Skills  */
+.education-list {
+    padding-left: 20px;
+}
+
+.education-list li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.skills-subheader {
+    font-family: var(--body-font);
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+}
+
+/*  Footer  */
+#page-footer {
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 0.9em;
+}
+
+
+strong {
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
+
+
